@@ -1,0 +1,131 @@
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+    background: rgb(240, 240, 240);
+    background: linear-gradient(0deg, rgba(240, 240, 240, 1) 0%, rgba(37, 213, 219, 1) 100%);
+}
+
+.navbar-dark {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(99deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-nav {
+    padding: 10px 20px;
+    padding-left: 20px !important;
+}
+
+ul li a {
+    color: white !important;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    filter: invert(100%);
+    font-size: 150%;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.container-fluid {
+    display: block;
+    /* width: 980px !important;*/
+    margin: 0 auto;
+}
+
+.container {
+    width: 980px !important;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.Logo {
+    height: 100px;
+}
+
+.VerMas {
+    background-color: #76D140 !important;
+    color: white !important;
+    border: 1px solid #76D140 !important;
+}
+
+.footerMenu {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.footerMenu:hover {
+    filter: invert(100%);
+    font-size: 150%;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.page-footer {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(99deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.FooterTexto {
+    color: white;
+    margin-bottom: 0;
+}
+
+.DivFooter {
+    padding-top: 15px;
+}
+
+.footer-copyright {
+    padding-bottom: 1rem !important;
+}
+
+.containerFooter {
+    margin: 0 auto;
+    padding: 20px 0;
+    /* width: 980px !important;*/
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.modal-header,
+.modal-footer {
+    background: rgb(255, 113, 175);
+    background: radial-gradient(circle, rgba(255, 113, 175, 1) 0%, rgba(98, 170, 255, 1) 100%);
+    color: black;
+}
+
+.BotonModal {
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.estrellas {
+    font-size: 40px;
+    color: white;
+}
+
+.clasificacion {
+    direction: rtl;
+    /* de izq a derecha */
+    unicode-bidi: bidi-override;
+    /* bidi de bidireccional */
+}
+
+.estrellas:hover,
+.estrellas:hover~.estrellas {
+    transform: scale(1.4);
+    transition: all 0.5s ease;
+    color: gold;
+}
+
+input[type="radio"]:checked~.estrellas {
+    color: gold;
+}
